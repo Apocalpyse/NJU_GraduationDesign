@@ -1,0 +1,28 @@
+server:
+  port: 1000
+
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+  application:
+    name: usercenterservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/UserCenter?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  server:
+    enable-self-preservation: true
+    wait-time-in-ms-when-sync-empty: 0
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+

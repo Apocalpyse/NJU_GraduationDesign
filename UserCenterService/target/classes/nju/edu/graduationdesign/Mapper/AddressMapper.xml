@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="nju.edu.graduationdesign.Mapper.AddressMapper">
+    <select id="findAddressById" parameterType="int" resultType="nju.edu.graduationdesign.Model.Address">
+        SELECT * FROM addresses  WHERE userid=#{userid}
+    </select>
+    <update id="updateAddress" parameterType="nju.edu.graduationdesign.Model.Address">
+        UPDATE addresses SET region=#{region},address=#{address},receiver=#{receiver},phone=#{phone},is_default=#{is_default}
+        WHERE id=#{id}
+    </update>
+    <insert id="insertAddress" parameterType="nju.edu.graduationdesign.Model.Address">
+        INSERT INTO addresses(userid, region, address, receiver, phone, is_default) VALUES (#{userid},#{region},#{address},#{receiver},#{phone},#{is_default})
+    </insert>
+    <delete id="deleteAddress" parameterType="int">
+        DELETE FROM addresses WHERE id=#{id}
+    </delete>
+</mapper>
