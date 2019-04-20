@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FeedBackSystem" />
         <module name="graduationdesign" />
         <module name="storeservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="FeedBackSystem" target="1.8" />
       <module name="graduationdesign" target="1.8" />
       <module name="storeservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FeedBackSystem" options="-parameters" />
       <module name="graduationdesign" options="-parameters" />
       <module name="storeservice" options="-parameters" />
     </option>

@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/UserCenterService/pom.xml" />
         <option value="$PROJECT_DIR$/StoreService/pom.xml" />
+        <option value="$PROJECT_DIR$/FeedBackSystem/pom.xml" />
       </list>
     </option>
   </component>

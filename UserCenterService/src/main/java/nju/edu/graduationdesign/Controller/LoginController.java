@@ -22,10 +22,10 @@ public class LoginController {
             if(user.isAlive()){
                 httpSession.setAttribute("account",account);
                 httpSession.setAttribute("id",user.getId());
+                return true;
             }else {
                 return false;
             }
-            return true;
         }else
             return false;
     }
