@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="nju.edu.feedbacksystem.Mapper.LeaveMessageMapper">
+    <insert id="insertLeaveMessage" parameterType="nju.edu.feedbacksystem.Model.LeaveMessage">
+        INSERT INTO leavemessage(userid, username, description, "date") VALUES (#{userid},#{username},#{description},#{date})
+    </insert>
+    <delete id="deleteLeaveMessage" parameterType="int">
+        DELETE FROM leavemessage WHERE id=#{id}
+    </delete>
+    <update id="updateLeaveMessage" parameterType="nju.edu.feedbacksystem.Model.LeaveMessage">
+        UPDATE goodsreport SET description=#{description},"date"=#{date} WHERE id=#{id}
+    </update>
+    <select id="findLeaveMessageById" parameterType="int" resultType="nju.edu.feedbacksystem.Model.LeaveMessage">
+        SELECT * FROM leavemessage WHERE id=#{id}
+    </select>
+    <select id="findAllLeaveMessage" resultType="nju.edu.feedbacksystem.Model.LeaveMessage">
+        SELECT * FROM leavemessage order by "date" desc
+    </select>
+    <select id="findLeaveMessageByUserId" parameterType="int" resultType="nju.edu.feedbacksystem.Model.LeaveMessage">
+        SELECT * FROM leavemessage WHERE userid=#{userid} order by "date" desc
+    </select>
+</mapper>

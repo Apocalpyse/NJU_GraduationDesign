@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="nju.edu.feedbacksystem.Mapper.GoodsReportMapper">
+    <select id="findGoodsReportById" parameterType="int" resultType="nju.edu.feedbacksystem.Model.GoodsReport">
+       SELECT * FROM goodsreport WHERE id=#{id}
+    </select>
+    <insert id="insertGoodsReport" parameterType="nju.edu.feedbacksystem.Model.GoodsReport">
+        INSERT INTO goodsreport(userid, username, goodsid, goodsname, description, "date") values (#{userid},#{username},#{goodsid},#{goodsname},#{description},#{date})
+    </insert>
+    <delete id="deleteGoodsReport" parameterType="int">
+        DELETE FROM goodsreport WHERE id=#{id}
+    </delete>
+    <update id="updateGoodsReport" parameterType="nju.edu.feedbacksystem.Model.GoodsReport">
+        UPDATE goodsreport SET description=#{description},"date"=#{date} WHERE id=#{id}
+    </update>
+    <select id="findAllGoodsReport" resultType="nju.edu.feedbacksystem.Model.GoodsReport">
+        SELECT * FROM goodsreport order by "date" desc
+    </select>
+    <select id="findGoodsReportByUserId" parameterType="int" resultType="nju.edu.feedbacksystem.Model.GoodsReport">
+        SELECT *  FROM goodsreport WHERE userid=#{userid} order by "date" desc
+    </select>
+    <select id="findGoodsReportByGoodsId" parameterType="int" resultType="nju.edu.feedbacksystem.Model.GoodsReport">
+        SELECT * FROM goodsreport WHERE goodsid=#{goodsid} order by "date" desc
+    </select>
+</mapper>

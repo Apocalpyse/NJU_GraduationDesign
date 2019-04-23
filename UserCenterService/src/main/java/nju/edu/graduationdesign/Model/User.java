@@ -14,6 +14,8 @@ public class User {
     private int id;
     //用户邮箱
     private String email;
+    //用户名
+    private String username;
     //用户账号
     private String account;
     //用户密码
