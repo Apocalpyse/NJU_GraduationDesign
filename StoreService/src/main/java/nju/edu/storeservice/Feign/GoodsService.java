@@ -1,6 +1,6 @@
 package nju.edu.storeservice.Feign;
 
-import nju.edu.storeservice.Model.Goods;
+import nju.edu.storeservice.Model.GoodsVO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,15 +15,15 @@ public interface GoodsService {
 
     //获取商铺所有的商品
     @GetMapping("/getGoodsBySellerId")
-    List<Goods> getStoreGoods(@RequestParam int id);
+    List<GoodsVO> getStoreGoods(@RequestParam int id);
 
     //上架商品
     @GetMapping("/addNewGoods")
-    boolean publishGoods(@RequestBody Goods goods);
+    boolean publishGoods(@RequestBody GoodsVO goodsVO);
 
     //修改某个商品的信息
     @GetMapping("/changeGoods")
-    boolean changeGoods(@RequestBody Goods goods);
+    boolean changeGoods(@RequestBody GoodsVO goodsVO);
 
     //下架商品
     @GetMapping("/cancelGoods")

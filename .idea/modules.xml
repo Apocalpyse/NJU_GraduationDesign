@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/CDL-GraduationDesign.iml" filepath="$PROJECT_DIR$/.idea/CDL-GraduationDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/FeedBackSystem/FeedBackSystem.iml" filepath="$PROJECT_DIR$/FeedBackSystem/FeedBackSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCenterService/graduationdesign.iml" filepath="$PROJECT_DIR$/UserCenterService/graduationdesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recommend/recommend.iml" filepath="$PROJECT_DIR$/recommend/recommend.iml" />
       <module fileurl="file://$PROJECT_DIR$/StoreService/storeservice.iml" filepath="$PROJECT_DIR$/StoreService/storeservice.iml" />
     </modules>
   </component>

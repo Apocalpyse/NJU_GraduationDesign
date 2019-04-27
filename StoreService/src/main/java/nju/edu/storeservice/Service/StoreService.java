@@ -2,7 +2,7 @@ package nju.edu.storeservice.Service;
 
 import nju.edu.storeservice.Feign.GoodsService;
 import nju.edu.storeservice.Mapper.StoreMapper;
-import nju.edu.storeservice.Model.Goods;
+import nju.edu.storeservice.Model.GoodsVO;
 import nju.edu.storeservice.Model.Store;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,19 +29,19 @@ public class StoreService {
         return storeMapper.updateStore(store);
     }
 
-    public List<Goods> getGoods(int id){
+    public List<GoodsVO> getGoods(int id){
         return goodsService.getStoreGoods(id);
     }
 
-    public boolean publishGoods(Goods goods){
-        return goodsService.publishGoods(goods);
+    public boolean publishGoods(GoodsVO goodsVO){
+        return goodsService.publishGoods(goodsVO);
     }
 
     public boolean cancelGoods(int id){
         return goodsService.cancelGoods(id);
     }
 
-    public boolean changeGoods(Goods goods){
-        return goodsService.changeGoods(goods);
+    public boolean changeGoods(GoodsVO goodsVO){
+        return goodsService.changeGoods(goodsVO);
     }
 }

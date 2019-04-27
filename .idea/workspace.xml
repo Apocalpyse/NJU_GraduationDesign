@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acb5c0e1-f080-41e0-b055-692423b2a3d9" name="Default Changelist" comment="反馈系统接口实现">
-      <change afterPath="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="acb5c0e1-f080-41e0-b055-692423b2a3d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Controller/RecommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/GoodsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Standard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Service/RecommendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoreService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsServiceFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/GoodsVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/UserCenterService/target/" />
     <ignored path="$PROJECT_DIR$/StoreService/target/" />
     <ignored path="$PROJECT_DIR$/FeedBackSystem/target/" />
+    <ignored path="$PROJECT_DIR$/recommend/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +43,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="FeedBack@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -36,82 +57,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Controller/FeedBackController.java">
+        <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+            <state relative-caret-position="425">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1541#1542#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2203#2204#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2338#2339#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
-                <element signature="e#2861#2862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFallBack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StoreService/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Service/GoodsReportService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+            <state relative-caret-position="153">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Service/LeaveMessageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +99,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -146,7 +123,6 @@
         <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreLoginService.java" />
         <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Store.java" />
         <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Goods.java" />
         <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.xml" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java" />
@@ -172,6 +148,17 @@
         <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/LeaveMessageMapper.xml" />
         <option value="$PROJECT_DIR$/StoreService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Goods.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OderFeignClient.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Standard.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/OrderItem.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Order.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Goods.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Controller/RecommandController.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Service/RecommendService.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFallBack.java" />
       </list>
     </option>
   </component>
@@ -205,75 +192,77 @@
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feedbacksystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feedbacksystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feedbacksystem" type="462c0819:PsiDirectoryNode" />
-              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="Feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feedbacksystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="FeedBackSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
@@ -299,33 +288,26 @@
               <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,9 +329,12 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19246861" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -360,6 +345,7 @@
       <recent name="nju.edu.feedbacksystem" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nju.edu.recommend.Model" />
       <recent name="nju.edu.storeservice.Model" />
     </key>
   </component>
@@ -382,9 +368,63 @@
     <option name="contentProportion" value="0.19489051" />
   </component>
   <component name="RunManager" selected="Spring Boot.UserCenterServiceApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="recommend" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="recommend" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FeedbacksystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="FeedBackSystem" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nju.edu.feedbacksystem.FeedbacksystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="recommend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nju.edu.recommend.RecommendApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,7 +462,10 @@
       <workItem from="1555996610573" duration="167000" />
       <workItem from="1555996793002" duration="850000" />
       <workItem from="1555997717478" duration="75000" />
-      <workItem from="1555997807586" duration="7273000" />
+      <workItem from="1555997807586" duration="7358000" />
+      <workItem from="1556111557074" duration="864000" />
+      <workItem from="1556112440816" duration="2613000" />
+      <workItem from="1556344445147" duration="10564000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555414277857</created>
@@ -452,16 +495,62 @@
       <option name="project" value="LOCAL" />
       <updated>1556005169214</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="项目配置修改">
+      <created>1556007442991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556007442991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38824000" />
+    <option name="totallyTimeSpent" value="52950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.22031474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.22889842" />
+      <window_info id="Structure" order="1" sideWeight="0.50240964" side_tool="true" weight="0.22889842" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Jms Messenger" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.15164521" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.22889842" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.24821173" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -493,11 +582,11 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Jms Messenger" order="6" />
-      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.15164521" />
+      <window_info anchor="right" id="Database" order="7" weight="0.15164521" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -511,134 +600,10 @@
     <MESSAGE value="完成商铺管理模块基本功能实现，并创建反馈系统模块" />
     <MESSAGE value="反馈系统创建" />
     <MESSAGE value="反馈系统接口实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="反馈系统接口实现" />
+    <MESSAGE value="项目配置修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目配置修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StoreService/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://35ea74a8-3e20-42b4-b172-737f968851c8/schema/Store/table/stores">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35ea74a8-3e20-42b4-b172-737f968851c8/console.sql" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.1.RELEASE/spring-cloud-netflix-eureka-server-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerMarkerConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.1.RELEASE/spring-cloud-netflix-eureka-server-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.1.RELEASE/spring-cloud-netflix-eureka-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.1.RELEASE/spring-cloud-netflix-eureka-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/StoreserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08fe80ed-3071-48d8-8a03-a86bbe5b638a/console.sql" />
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/OrderFeignClient.java" />
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsServiceFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -677,26 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Standard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,67 +796,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Service/LeaveMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Service/GoodsReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Controller/FeedBackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2338#2339#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2861#2862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -922,10 +811,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Service/GoodsReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Service/LeaveMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="357">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Controller/FeedBackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommand/RecommandApplication.java" />
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/GoodsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/RecommendApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Standard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Standard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/GoodsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1282" column="31" selection-start-line="1282" selection-start-column="31" selection-end-line="1282" selection-end-column="31" />
+          <folding>
+            <element signature="e#44305#44306#0" expanded="true" />
+            <element signature="e#44353#44354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Service/RecommendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Controller/RecommandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,11 +1070,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>storeservice</last-edited>
+          <last-edited>recommend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.19246861" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1009,7 +1099,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19246861" />
               </list>
             </option>
           </splitter-proportions>
