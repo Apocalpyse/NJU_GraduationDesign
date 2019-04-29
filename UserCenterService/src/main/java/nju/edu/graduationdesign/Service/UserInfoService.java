@@ -1,8 +1,11 @@
 package nju.edu.graduationdesign.Service;
 
+import nju.edu.graduationdesign.Feign.OrderFeignClient;
 import nju.edu.graduationdesign.Mapper.AddressMapper;
 import nju.edu.graduationdesign.Mapper.UserMapper;
 import nju.edu.graduationdesign.Model.Address;
+import nju.edu.graduationdesign.Model.Order;
+import nju.edu.graduationdesign.Model.OrderState;
 import nju.edu.graduationdesign.Model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,6 +19,8 @@ public class UserInfoService {
     UserMapper userMapper;
     @Autowired
     AddressMapper  addressMapper;
+    @Autowired
+    OrderFeignClient orderFeignClient;
 
     //根据id获取用户信息
     public User getUserInfoById(int id){
@@ -62,8 +67,25 @@ public class UserInfoService {
     public boolean addAddress(Address address){
         return addressMapper.insertAddress(address);
     }
+
     //删除用户地址
     public boolean deleteAddress(int id){
         return addressMapper.deleteAddress(id);
+    }
+
+    //分类获取用户订单
+    public List<Order> getOrders(OrderState orderState,int userid){
+        switch (orderState){
+            case payed:
+                return orderFeignClient.getPayedOrders(userid);
+            case unpayed:
+                return orderFeignClient.getUnpayedOrders(userid);
+            case canceled:
+                return orderFeignClient.getCanceledOrders(userid);
+            case finished:
+                return orderFeignClient.getFinishedOrders(userid);
+            default:
+                return orderFeignClient.getOrderLists(userid);
+        }
     }
 }
