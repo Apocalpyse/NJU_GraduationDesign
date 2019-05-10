@@ -17,6 +17,7 @@ public class RegistryService {
         user.setReg_time(new Date());
         User u=userMapper.findUserByAccount(user.getAccount());
         if(u==null){
+            user.setReg_time(new Date());
             return userMapper.saveUser(user);
         }else {
             return false;

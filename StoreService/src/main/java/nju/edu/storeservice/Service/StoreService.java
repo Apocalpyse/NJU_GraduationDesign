@@ -3,7 +3,7 @@ package nju.edu.storeservice.Service;
 import nju.edu.storeservice.Feign.GoodsService;
 import nju.edu.storeservice.Mapper.StoreMapper;
 import nju.edu.storeservice.Model.GoodsVO;
-import nju.edu.storeservice.Model.Store;
+import nju.edu.storeservice.Model.StoreVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,16 +17,16 @@ public class StoreService {
     @Autowired
     GoodsService goodsService;
 
-    public boolean registry(Store store){
-         return storeMapper.insertStore(store);
+    public boolean registry(StoreVO storeVO){
+         return storeMapper.insertStore(storeVO);
     }
 
-    public Store getById(int id){
+    public StoreVO getById(int id){
         return storeMapper.findStoreById(id);
     }
 
-    public boolean changeStoreInfo(Store store){
-        return storeMapper.updateStore(store);
+    public boolean changeStoreInfo(StoreVO storeVO){
+        return storeMapper.updateStore(storeVO);
     }
 
     public List<GoodsVO> getGoods(int id){

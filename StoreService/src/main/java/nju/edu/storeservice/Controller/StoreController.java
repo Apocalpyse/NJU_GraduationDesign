@@ -1,7 +1,7 @@
 package nju.edu.storeservice.Controller;
 
 import nju.edu.storeservice.Model.GoodsVO;
-import nju.edu.storeservice.Model.Store;
+import nju.edu.storeservice.Model.StoreVO;
 import nju.edu.storeservice.Service.StoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -19,18 +20,18 @@ public class StoreController {
     StoreService storeService;
 
     @GetMapping("/store/registry")
-    public boolean registryStore(@RequestBody Store store){
-        return storeService.registry(store);
+    public boolean registryStore(@RequestBody StoreVO storeVO){
+        return storeService.registry(storeVO);
     }
 
     @GetMapping("/store")
-    public Store getStoreInfo(@RequestParam int userid){
+    public StoreVO getStoreInfo(@RequestParam int userid){
         return storeService.getById(userid);
     }
 
     @GetMapping("/store/changeInfo")
-    public boolean changeStoreInfo(@RequestBody Store store){
-        return storeService.changeStoreInfo(store);
+    public boolean changeStoreInfo(@RequestBody StoreVO storeVO){
+        return storeService.changeStoreInfo(storeVO);
     }
 
     @GetMapping("/store/Goods")
@@ -51,6 +52,15 @@ public class StoreController {
     @GetMapping("/store/changeGoods")
     public boolean modifyGood(@RequestBody GoodsVO goodsVO){
         return storeService.changeGoods(goodsVO);
+    }
+
+    @GetMapping("/store/getStoreVOs")
+    public List<StoreVO> getStoreVOs(@RequestParam List<Integer> ids){
+        List<StoreVO> storeVOS=new ArrayList<>();
+        for(int i:ids){
+            storeVOS.add(storeService.getById(i));
+        }
+        return storeVOS;
     }
 
 }

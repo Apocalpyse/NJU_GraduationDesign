@@ -3,20 +3,20 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="nju.edu.storeservice.Mapper.StoreMapper">
-    <insert id="insertStore" parameterType="nju.edu.storeservice.Model.Store">
+    <insert id="insertStore" parameterType="nju.edu.storeservice.Model.StoreVO">
         INSERT INTO  stores(userid, name, sign, phone, turnover, location, reg_time) VALUES (#{userid},#{name},#{sign},
         #{phone},#{turnover},#{location},#{reg_time})
     </insert>
     <delete id="deleteStore" parameterType="int">
         DELETE FROM stores WHERE userid=#{userid}
     </delete>
-    <update id="updateStore" parameterType="nju.edu.storeservice.Model.Store">
+    <update id="updateStore" parameterType="nju.edu.storeservice.Model.StoreVO">
          UPDATE stores SET name=#{name},sign=#{sign},phone=#{phone},turnover=#{turnover},location=#{location} WHERE userid=#{userid}
     </update>
-    <select id="findStoreById" parameterType="int" resultType="nju.edu.storeservice.Model.Store">
+    <select id="findStoreById" parameterType="int" resultType="nju.edu.storeservice.Model.StoreVO">
         SELECT * FROM stores  WHERE userid=#{userid}
     </select>
-    <select id="findAllStores" resultType="nju.edu.storeservice.Model.Store">
+    <select id="findAllStores" resultType="nju.edu.storeservice.Model.StoreVO">
        SELECT * FROM stores
     </select>
 </mapper>

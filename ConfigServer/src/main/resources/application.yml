@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Apocalpyse/NJU_GD_Config.git
+          username: 2578931175@qq.com
+          password: Qq2578931175
+          search-paths: config
+  application:
+    name: configservice
+
+server:
+  port: 2000

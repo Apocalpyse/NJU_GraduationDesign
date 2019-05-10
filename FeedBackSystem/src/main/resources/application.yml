@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: storeservice
+    name: feedbackservice
   cloud:
     loadbalancer:
       retry:

@@ -2,20 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb5c0e1-f080-41e0-b055-692423b2a3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/StoreVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCenterService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCenterService/target/classes/nju/edu/graduationdesign/Controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/target/classes/nju/edu/graduationdesign/Controller/UserInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCenterService/target/classes/nju/edu/graduationdesign/Service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserCenterService/target/classes/nju/edu/graduationdesign/Service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/RecommendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/RecommendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/UserCenterService/target/" />
     <ignored path="$PROJECT_DIR$/StoreService/target/" />
     <ignored path="$PROJECT_DIR$/FeedBackSystem/target/" />
     <ignored path="$PROJECT_DIR$/recommend/target/" />
+    <ignored path="$PROJECT_DIR$/ConfigServer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +58,32 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="FeedBack@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Store@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="UserCenter@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="UserCenter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="UserCenter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="UserCenter: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="UserCenter@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="UserCenter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -45,36 +91,51 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/UserInfoController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+            <state relative-caret-position="75">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/UserInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="e#1931#1932#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#2088#2089#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2273#2274#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-                <element signature="e#2463#2464#0" expanded="true" />
-                <element signature="e#2535#2536#0" expanded="true" />
-                <element signature="e#2637#2638#0" expanded="true" />
-                <element signature="e#2674#2675#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Service/RecommendService.java">
+        <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -85,8 +146,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,22 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/StoreService/.gitignore" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/StoreMapper.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Standard.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Good.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreLoginService.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Store.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Mapper/StoreMapper.xml" />
-        <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/OrderFeignClient.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsServiceFallback.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreService.java" />
-        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java" />
-        <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/FeedbacksystemApplication.java" />
         <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Model/FeedBackInfo.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/User.java" />
         <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/Mapper/GoodsReportMapper.java" />
@@ -131,7 +176,6 @@
         <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/GoodsReportMapper.xml" />
         <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/LeaveMessageMapper.xml" />
         <option value="$PROJECT_DIR$/StoreService/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Goods.java" />
         <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OderFeignClient.java" />
         <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Model/Standard.java" />
@@ -142,15 +186,33 @@
         <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Service/RecommendService.java" />
         <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFallBack.java" />
         <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFallBack.java" />
-        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java" />
         <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java" />
-        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/Order.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/OrderItem.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderFeignClient.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/OrderState.java" />
+        <option value="$PROJECT_DIR$/recommend/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ConfigServer/src/main/java/nju/edu/configserver/ConfigserverApplication.java" />
+        <option value="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ConfigServer/src/main/resources/config-test-a" />
+        <option value="$PROJECT_DIR$/ConfigServer/src/main/resources/config-test-b.yml" />
+        <option value="$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/recommend/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/RecommendApplication.java" />
+        <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Config/CorsConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/StoreVO.java" />
+        <option value="$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java" />
       </list>
     </option>
   </component>
@@ -173,6 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,74 +247,165 @@
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
               <item name="Feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="storeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="StoreService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationdesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDL-GraduationDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDL-GraduationDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="UserCenterService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationdesign" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,9 +437,11 @@
       <recent name="nju.edu.feedbacksystem" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nju.edu.feedbacksystem.Config" />
+      <recent name="nju.edu.recommend.Config" />
+      <recent name="nju.edu.storeservice.Config" />
       <recent name="nju.edu.graduationdesign.Model" />
       <recent name="nju.edu.recommend.Model" />
-      <recent name="nju.edu.storeservice.Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,6 +510,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nju.edu.configserver.ConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FeedbacksystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="FeedBackSystem" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nju.edu.feedbacksystem.FeedbacksystemApplication" />
@@ -404,7 +568,12 @@
       <workItem from="1556111557074" duration="864000" />
       <workItem from="1556112440816" duration="2613000" />
       <workItem from="1556344445147" duration="10838000" />
-      <workItem from="1556516118230" duration="3693000" />
+      <workItem from="1556516118230" duration="4314000" />
+      <workItem from="1556525902058" duration="3191000" />
+      <workItem from="1556595353590" duration="129000" />
+      <workItem from="1557021105252" duration="2491000" />
+      <workItem from="1557125725576" duration="2241000" />
+      <workItem from="1557462721402" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555414277857</created>
@@ -448,17 +617,31 @@
       <option name="project" value="LOCAL" />
       <updated>1556358394962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="用户模块添加获取订单的接口，推荐模块配置信息修改">
+      <created>1556525278989</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556525278989</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加ignore文件">
+      <created>1556526003760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556526003760</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56917000" />
+    <option name="totallyTimeSpent" value="66460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.23175965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" sideWeight="0.50240964" side_tool="true" weight="0.22889842" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -473,7 +656,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -548,202 +731,11 @@
     <MESSAGE value="反馈系统接口实现" />
     <MESSAGE value="项目配置修改" />
     <MESSAGE value="商品推荐系统实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品推荐系统实现" />
+    <MESSAGE value="用户模块添加获取订单的接口，推荐模块配置信息修改" />
+    <MESSAGE value="添加ignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加ignore文件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/RegistryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/UserCenterServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/FeedbacksystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eaa3e29a-2355-4842-a335-2311e4f1d78d/console.sql" />
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Mapper/AddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Mapper/AddressMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/GoodsReportMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/LeaveMessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Model/LeaveMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Model/GoodsReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/GoodsReportMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Mapper/LeaveMessageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Controller/FeedBackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommand/RecommandApplication.java" />
-    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/GoodsVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/RecommendApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/Standard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -785,16 +777,6 @@
           <folding>
             <element signature="e#44305#44306#0" expanded="true" />
             <element signature="e#44353#44354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Controller/RecommandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -875,13 +857,6 @@
     <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/Order.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Model/OrderState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -889,63 +864,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/UserInfoService.java">
+    <entry file="file://$PROJECT_DIR$/recommend/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="87" column="62" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+        <state relative-caret-position="187">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderFeignClient.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigServer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigServer/src/main/resources/config-test-b.yml" />
+    <entry file="file://$PROJECT_DIR$/ConfigServer/src/main/resources/config-test-a.yml" />
+    <entry file="file://$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigServer/src/main/java/nju/edu/configserver/ConfigserverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Controller/RecommandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Feign/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="63">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Service/StoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/FeedbacksystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/RecommendApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/OrderFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Feign/GoodsFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Service/RecommendService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeedBackSystem/src/main/java/nju/edu/feedbacksystem/Config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend/src/main/java/nju/edu/recommend/Config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/RegistryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/RegistryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08fe80ed-3071-48d8-8a03-a86bbe5b638a/schema/UserCenter/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Feign/OrderFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Model/StoreVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UserCenterService/src/main/java/nju/edu/graduationdesign/Controller/UserInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
-          <folding>
-            <element signature="e#1931#1932#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2273#2274#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2463#2464#0" expanded="true" />
-            <element signature="e#2535#2536#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreService/src/main/java/nju/edu/storeservice/Controller/StoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
         </state>
       </provider>
     </entry>

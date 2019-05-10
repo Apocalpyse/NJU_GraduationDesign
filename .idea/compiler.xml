@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="storeservice" />
         <module name="FeedBackSystem" />
+        <module name="ConfigServer" />
         <module name="graduationdesign" />
         <module name="recommend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ConfigServer" target="1.8" />
       <module name="FeedBackSystem" target="1.8" />
       <module name="graduationdesign" target="1.8" />
       <module name="recommend" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
       <module name="FeedBackSystem" options="-parameters" />
       <module name="graduationdesign" options="-parameters" />
       <module name="recommend" options="-parameters" />

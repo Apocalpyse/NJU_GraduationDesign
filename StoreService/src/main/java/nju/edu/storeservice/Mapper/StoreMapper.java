@@ -1,6 +1,6 @@
 package nju.edu.storeservice.Mapper;
 
-import nju.edu.storeservice.Model.Store;
+import nju.edu.storeservice.Model.StoreVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -10,14 +10,14 @@ import java.util.List;
 @Repository
 public interface StoreMapper {
 
-    boolean insertStore(Store store);
+    boolean insertStore(StoreVO storeVO);
 
     boolean deleteStore(int userid);
 
-    boolean updateStore(Store store);
+    boolean updateStore(StoreVO storeVO);
 
-    Store findStoreById(int userid);
+    StoreVO findStoreById(int userid);
 
-    List<Store> findAllStores();
+    List<StoreVO> findAllStores();
 
 }

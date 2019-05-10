@@ -58,28 +58,4 @@ public class UserInfoController {
         return userInfoService.deleteAddress(id);
     }
 
-    @RequestMapping("/order")
-    public List<Order> getOrders(@RequestParam int id){
-        return userInfoService.getOrders(null,id);
-    }
-
-    @RequestMapping("/order/unpayed")
-    public List<Order> getUnpayed(@RequestParam int id){
-        return userInfoService.getOrders(OrderState.unpayed,id);
-    }
-
-    @RequestMapping("/order/payed")
-    public List<Order> getPayed(@RequestParam int id){
-        return userInfoService.getOrders(OrderState.payed,id);
-    }
-
-    @RequestMapping("/oder/canceled")
-    public List<Order> getCanceled(@RequestParam int id){
-        return userInfoService.getOrders(OrderState.canceled,id);
-    }
-
-    @RequestMapping("/order/finished")
-    public List<Order> getFinished(@RequestParam int id){
-        return userInfoService.getOrders(OrderState.finished,id);
-    }
 }

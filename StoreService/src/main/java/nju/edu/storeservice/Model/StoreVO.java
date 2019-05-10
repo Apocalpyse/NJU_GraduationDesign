@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Store {
+public class StoreVO {
     //商铺名称
     private String name;
     //店主id
