@@ -2,7 +2,7 @@ package nju.edu.storeservice.Service;
 
 import nju.edu.storeservice.Feign.GoodsService;
 import nju.edu.storeservice.Mapper.StoreMapper;
-import nju.edu.storeservice.Model.GoodsVO;
+import nju.edu.storeservice.Model.GoodsVo;
 import nju.edu.storeservice.Model.StoreVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,11 +29,11 @@ public class StoreService {
         return storeMapper.updateStore(storeVO);
     }
 
-    public List<GoodsVO> getGoods(int id){
-        return goodsService.getStoreGoods(id);
+    public List<GoodsVo> getGoods(int id){
+        return goodsService.getGoodsBySellerID(id);
     }
 
-    public boolean publishGoods(GoodsVO goodsVO){
+    public boolean publishGoods(GoodsVo goodsVO){
         return goodsService.publishGoods(goodsVO);
     }
 
@@ -41,7 +41,7 @@ public class StoreService {
         return goodsService.cancelGoods(id);
     }
 
-    public boolean changeGoods(GoodsVO goodsVO){
+    public boolean changeGoods(GoodsVo goodsVO){
         return goodsService.changeGoods(goodsVO);
     }
 }

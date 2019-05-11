@@ -1,13 +1,10 @@
 server:
   port: 2000
+  max-http-header-size: 20480
 
 spring:
   application:
     name: storeservice
-  cloud:
-    loadbalancer:
-      retry:
-        enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/UserCenter?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
@@ -15,8 +12,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 eureka:
+  instance:
+    hostname: localhost
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:1000/eureka/
+

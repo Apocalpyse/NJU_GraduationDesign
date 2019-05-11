@@ -18,7 +18,7 @@ spring:
 
 eureka:
   server:
-    enable-self-preservation: true
+    enable-self-preservation: false
     wait-time-in-ms-when-sync-empty: 0
   instance:
     hostname: localhost

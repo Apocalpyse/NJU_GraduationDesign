@@ -1,6 +1,7 @@
 package nju.edu.storeservice.Controller;
 
-import nju.edu.storeservice.Model.GoodsVO;
+import nju.edu.storeservice.Feign.GoodsService;
+import nju.edu.storeservice.Model.GoodsVo;
 import nju.edu.storeservice.Model.StoreVO;
 import nju.edu.storeservice.Service.StoreService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,8 @@ public class StoreController {
 
     @Autowired
     StoreService storeService;
+    @Autowired
+    GoodsService goodsService;
 
     @GetMapping("/store/registry")
     public boolean registryStore(@RequestBody StoreVO storeVO){
@@ -35,12 +38,12 @@ public class StoreController {
     }
 
     @GetMapping("/store/Goods")
-    public List<GoodsVO> getGoods(@RequestParam int id){
-        return storeService.getGoods(id);
+    public List<GoodsVo> getGoods(@RequestParam int id){
+        return goodsService.getGoodsBySellerID(id);
     }
 
     @GetMapping("/store/publishGoods")
-    public boolean publishGood(@RequestBody GoodsVO goodsVO){
+    public boolean publishGood(@RequestBody GoodsVo goodsVO){
         return storeService.publishGoods(goodsVO);
     }
 
@@ -50,7 +53,7 @@ public class StoreController {
     }
 
     @GetMapping("/store/changeGoods")
-    public boolean modifyGood(@RequestBody GoodsVO goodsVO){
+    public boolean modifyGood(@RequestBody GoodsVo goodsVO){
         return storeService.changeGoods(goodsVO);
     }
 
@@ -62,5 +65,6 @@ public class StoreController {
         }
         return storeVOS;
     }
+
 
 }
