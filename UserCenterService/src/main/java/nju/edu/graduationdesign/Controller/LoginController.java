@@ -3,9 +3,7 @@ package nju.edu.graduationdesign.Controller;
 import nju.edu.graduationdesign.Model.User;
 import nju.edu.graduationdesign.Service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 
@@ -15,7 +13,7 @@ public class LoginController {
     @Autowired
     LoginService loginService;
 
-    @GetMapping("/login")
+    @RequestMapping(value = "/login",method = RequestMethod.GET)
     public boolean login(@RequestParam String account, @RequestParam String password, HttpSession httpSession){
         if(loginService.login(account, password)){
             User user=loginService.findAllInfoByAccount(account);

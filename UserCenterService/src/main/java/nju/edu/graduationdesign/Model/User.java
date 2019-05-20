@@ -30,8 +30,5 @@ public class User {
     private boolean alive;
     //注册时间
     private Date reg_time;
-    //token
-    private String token;
-    //token失效时间
-    private Date token_expire_time;
+
 }

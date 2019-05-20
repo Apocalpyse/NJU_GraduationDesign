@@ -1,14 +1,11 @@
 package nju.edu.storeservice.Controller;
 
 import nju.edu.storeservice.Feign.GoodsService;
-import nju.edu.storeservice.Model.GoodsVo;
-import nju.edu.storeservice.Model.StoreVO;
+import nju.edu.storeservice.Model.Goods;
+import nju.edu.storeservice.Model.Store;
 import nju.edu.storeservice.Service.StoreService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,48 +19,49 @@ public class StoreController {
     @Autowired
     GoodsService goodsService;
 
-    @GetMapping("/store/registry")
-    public boolean registryStore(@RequestBody StoreVO storeVO){
-        return storeService.registry(storeVO);
-    }
-
-    @GetMapping("/store")
-    public StoreVO getStoreInfo(@RequestParam int userid){
+    @RequestMapping(value = "/store",method = RequestMethod.GET)
+    public Store getStoreInfo(@RequestParam int userid){
         return storeService.getById(userid);
     }
 
-    @GetMapping("/store/changeInfo")
-    public boolean changeStoreInfo(@RequestBody StoreVO storeVO){
-        return storeService.changeStoreInfo(storeVO);
+    @RequestMapping(value = "/store/registry",method = RequestMethod.GET)
+    public boolean registryStore(@RequestBody Store store){
+        return storeService.registry(store);
     }
 
-    @GetMapping("/store/Goods")
-    public List<GoodsVo> getGoods(@RequestParam int id){
+
+    @RequestMapping(value = "/store/changeInfo",method = RequestMethod.GET)
+    public boolean changeStoreInfo(@RequestBody Store store){
+        return storeService.changeStoreInfo(store);
+    }
+
+    @RequestMapping(value = "/store/goods",method = RequestMethod.GET)
+    public List<Goods> getGoods(@RequestParam int id){
         return goodsService.getGoodsBySellerID(id);
     }
 
-    @GetMapping("/store/publishGoods")
-    public boolean publishGood(@RequestBody GoodsVo goodsVO){
-        return storeService.publishGoods(goodsVO);
+    @RequestMapping(value = "/store/publishGoods",method = RequestMethod.GET)
+    public boolean publishGood(@RequestBody Goods goods){
+        return storeService.publishGoods(goods);
     }
 
-    @GetMapping("/store/cancelGoods")
+    @RequestMapping(value = "/store/cancelGoods",method = RequestMethod.GET)
     public boolean cancelGood(@RequestParam int goodId){
         return storeService.cancelGoods(goodId);
     }
 
-    @GetMapping("/store/changeGoods")
-    public boolean modifyGood(@RequestBody GoodsVo goodsVO){
-        return storeService.changeGoods(goodsVO);
+    @RequestMapping(value = "/store/changeGoods",method = RequestMethod.GET)
+    public boolean modifyGood(@RequestBody Goods goods){
+        return storeService.changeGoods(goods);
     }
 
-    @GetMapping("/store/getStoreVOs")
-    public List<StoreVO> getStoreVOs(@RequestParam List<Integer> ids){
-        List<StoreVO> storeVOS=new ArrayList<>();
+    @RequestMapping(value = "/store/getStores",method = RequestMethod.GET)
+    public List<Store> getStores(@RequestParam List<Integer> ids){
+        List<Store> stores =new ArrayList<>();
         for(int i:ids){
-            storeVOS.add(storeService.getById(i));
+            stores.add(storeService.getById(i));
         }
-        return storeVOS;
+        return stores;
     }
 
 

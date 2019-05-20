@@ -2,6 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper标签通过namespace绑定AddressMapper接口-->
 <mapper namespace="nju.edu.graduationdesign.Mapper.AddressMapper">
     <select id="findAddressById" parameterType="int" resultType="nju.edu.graduationdesign.Model.Address">
         SELECT * FROM addresses  WHERE userid=#{userid}

@@ -1,6 +1,6 @@
 package nju.edu.storeservice.Feign;
 
-import nju.edu.storeservice.Model.GoodsVo;
+import nju.edu.storeservice.Model.Goods;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -9,17 +9,17 @@ import java.util.List;
 public class GoodsServiceFallback implements GoodsService {
 
     @Override
-    public List<GoodsVo> getGoodsBySellerID(int id) {
+    public List<Goods> getGoodsBySellerID(int id) {
         return null;
     }
 
     @Override
-    public boolean publishGoods(GoodsVo goodsVO) {
+    public boolean publishGoods(Goods goods) {
         return false;
     }
 
     @Override
-    public boolean changeGoods(GoodsVo goodsVO) {
+    public boolean changeGoods(Goods goods) {
         return false;
     }
 

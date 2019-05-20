@@ -3,8 +3,6 @@ package nju.edu.graduationdesign.Service;
 import nju.edu.graduationdesign.Mapper.AddressMapper;
 import nju.edu.graduationdesign.Mapper.UserMapper;
 import nju.edu.graduationdesign.Model.Address;
-import nju.edu.graduationdesign.Model.Order;
-import nju.edu.graduationdesign.Model.OrderState;
 import nju.edu.graduationdesign.Model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

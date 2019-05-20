@@ -14,10 +14,10 @@
     </select>
     <insert id="saveUser" parameterType="nju.edu.graduationdesign.Model.User">
         INSERT INTO users(email,username,account,password,phone,avatar,balance,alive,reg_time,token,token_expire_time)
-        values (#{email},#{username},#{account},#{password},#{phone},#{avatar},#{balabce},#{alive},#{reg_time},#{token},#{token_expire_time})
+        values (#{email},#{username},#{account},#{password},#{phone},#{avatar},#{balabce},#{alive},#{reg_time}})
     </insert>
     <update id="updateUser" parameterType="nju.edu.graduationdesign.Model.User">
         UPDATE users set email=#{email},username=#{username},password=#{password},phone=#{phone},avatar=#{avatar},
-        balance=#{balance},alive=#{alive},reg_time=#{reg_time},token=#{token},token_expire_time=#{token_expire_time} WHERE id=#{id}
+        balance=#{balance},alive=#{alive},reg_time=#{reg_time} WHERE id=#{id}
     </update>
 </mapper>

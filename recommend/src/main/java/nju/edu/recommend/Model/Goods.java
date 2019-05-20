@@ -10,7 +10,7 @@ import java.util.Map;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GoodsVO {
+public class Goods {
     //id
     int goodsId;
     //描述

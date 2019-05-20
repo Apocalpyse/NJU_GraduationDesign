@@ -2,7 +2,7 @@ package nju.edu.recommend.Service;
 
 import nju.edu.recommend.Feign.GoodsFeignClient;
 import nju.edu.recommend.Feign.OrderFeignClient;
-import nju.edu.recommend.Model.GoodsVO;
+import nju.edu.recommend.Model.Goods;
 import nju.edu.recommend.Model.Order;
 import nju.edu.recommend.Model.OrderItem;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +36,7 @@ public class RecommendService {
     }
 
     //从商品模块根据id获取商品列表
-    List<GoodsVO> getGoodsById(int userid){
+    List<Goods> getGoodsById(int userid){
         List<Order> orders=this.getOrders(userid);
         //取近10单做分析
         if(orders.size()>=10){
@@ -59,10 +59,10 @@ public class RecommendService {
 
 
     //从商品模块获取推荐商品，根据品牌名称和其比重
-    public List<GoodsVO> getRecommendGoodsListByBrand(int userid){
+    public List<Goods> getRecommendGoodsListByBrand(int userid){
         List<String> brands=new ArrayList<>();
-        List<GoodsVO> goods=this.getGoodsById(userid);
-        for(GoodsVO goodsVO:goods){
+        List<Goods> goods=this.getGoodsById(userid);
+        for(Goods goodsVO:goods){
             brands.add(goodsVO.getBrand());
         }
         //统计出消费记录中包含的商品品牌和出现次数
@@ -88,10 +88,10 @@ public class RecommendService {
     }
 
 
-    public List<GoodsVO> getRecommendGoodsListByStore(int userid){
+    public List<Goods> getRecommendGoodsListByStore(int userid){
         List<Integer> stores=new ArrayList<>();
-        List<GoodsVO> goods=this.getGoodsById(userid);
-        for(GoodsVO goodsVO:goods){
+        List<Goods> goods=this.getGoodsById(userid);
+        for(Goods goodsVO:goods){
             stores.add(goodsVO.getStoreId());
         }
         ConcurrentHashMap<Integer,Integer> storeWeights=new ConcurrentHashMap<>();
@@ -113,10 +113,10 @@ public class RecommendService {
         return goodsFeignClient.getGoodsVOSByStores(queryData);
     }
 
-    public List<GoodsVO> getRecommendGoodsListByClassify(int userid){
+    public List<Goods> getRecommendGoodsListByClassify(int userid){
         List<String> classifies=new ArrayList<>();
-        List<GoodsVO> goods=this.getGoodsById(userid);
-        for(GoodsVO goodsVO:goods){
+        List<Goods> goods=this.getGoodsById(userid);
+        for(Goods goodsVO:goods){
             classifies.addAll(goodsVO.getClassifies());
         }
         //统计出消费记录中包含的商品品牌和出现次数

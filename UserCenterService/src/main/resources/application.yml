@@ -16,15 +16,16 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
+#eureka配置
 eureka:
   server:
-    enable-self-preservation: false
+    enable-self-preservation: true
     wait-time-in-ms-when-sync-empty: 0
   instance:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/;http://192.168.47.247:1111/eureka/
     register-with-eureka: true
     fetch-registry: true
 
